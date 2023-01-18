@@ -4,6 +4,7 @@ Some steps on the scenerios of why we get stuck when we have to push a local rep
 ### 1. When you first create a local repo and wants to push it to the github.  
 In that case:  
 - __create a new repo__ on github (this reponame would be used in the just next step)  
+- __Now switch to your local repo__
 - __add a remote__ by syntax : __`git remote add <remote_name_of_your_choice> <git@github.com:username/reponame.git>`__  
 - __Now switch to the main branch__ of the remote by : __`git checkout <remote_that_you_have_mentioned_above/main>`__  
 - Now __fetch__ the contents of the __remote__ branch by : __`git fetch <remote_that_you_have_mentioned_above>`__
