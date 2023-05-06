@@ -1,0 +1,28 @@
+.contact-heading-animation{
+    animation: slide-top 1s ease-in 0s;
+}
+.contact-content-animation{
+    animation: slide-right 1s ease-in 0s;
+}
+
+@keyframes slide-right {
+    0%{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-top {
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

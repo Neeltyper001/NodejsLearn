@@ -1,0 +1,49 @@
+.animate-Mprofile {
+    animation: slide-right 1s ease-in 0s forwards;
+}
+
+.animate-first-Mprofile{
+    animation: slide-right 1s ease-in 0s forwards;
+}
+
+.animate-first-profile-text{
+    animation: slide-top 1s ease-in 0s forwards;
+}
+
+.animate-profile-texts{
+    animation: slide-top 1s ease-in 0s forwards;
+}
+
+@keyframes slide-right {
+    0%{
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-left {
+    0%{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-top {
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+

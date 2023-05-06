@@ -2,17 +2,18 @@ const fs = require('fs');
 const path = require('path');
 const pth = require('path');
 
-console.log(path.basename('index.js')); // gives the path of the file
-console.log(path.dirname('index.js')); // gives the path of the directory
+console.log("Line 0: "+path.basename('example.js'));
+console.log("Line 1: "+path.basename('index.js')); // gives the path of the file
+console.log("Line 2: "+path.dirname('index.js')); // gives the path of the directory
 
-// *********** or **************//
-console.log(__filename);
-console.log(__dirname);
+// *********** or absolute directory path name **************//
+console.log("Line 3: "+__filename);
+console.log("Line 4: "+__dirname);
 
-console.log(path.dirname('exp'));
+console.log("Line 5: "+path.dirname('exp'));
 
 // ********* combining the path of the file *********
-console.log(path.join(__dirname, 'exp'));
+console.log("Line 6: "+path.join(__dirname, 'exp'));
 
 // for(i=0; i<5; i++){
 //     fs.writeFileSync(path.join(__dirname,'exp')+`/hello${i}.txt`,`File content in file ${i}`);

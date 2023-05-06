@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3em 10em;
+}
+
+ul{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+ul li{
+    font-size: 30px;
+    font-weight: bold;    
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    padding: 20px 50px;
+    box-sizing:border-box;
+}
+.card-left {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 5em 0px;
+}
+
+.card-right {
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 5em 0px;
+}
+
+.card-left .Mprofile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.card-right .Mprofile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.Mimgs{
+    height: 500px;
+    width: 500px;
+    border-radius: 3rem;
+}
+
+.profile-text{
+    align-self:flex-start;
+    padding: 50px;
+    align-self: flex-start;
+    font-size: 62px;
+}
