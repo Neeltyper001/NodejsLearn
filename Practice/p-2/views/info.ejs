@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 7%;
+        }
+
+        .holder{
+            display: flex;
+            flex-direction:column;
+            width: 600px;
+            height: 500px;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            padding: 6px;
+            box-shadow: 0 0 13px black;
+        }
+
+        .heading{
+            font-size: 23px;
+        }
+
+        .sub-heading{
+            font-size: 23px;
+        }
+    </style>
+</head>
+<body>
+    <div class="holder">
+        <h1 class="heading">This is the info about: <%= obj.name %></h1>
+        <h2 class="sub-heading">Description: <%= obj.desc %></h2>
+    </div>
+</body>
+</html>
