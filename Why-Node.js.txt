@@ -1,0 +1,16 @@
+Why node.js
+- Run time environment for javascript
+- Async nature: Non blocking style
+- Data driven : disk related opeartions
+- For-example: social-media, chat application, video-streaming-spotify
+
+Node.js usage
+- uber
+- payPal
+- Linkedin
+- Medium
+- NASA
+- eBay
+- NetFlix
+- Walmart
+- GoDaddy

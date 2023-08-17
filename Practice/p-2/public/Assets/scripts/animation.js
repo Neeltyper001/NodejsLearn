@@ -10,12 +10,6 @@ function MprofileAnimation(){
         }
     })
 
-    profileTexts.forEach((profileText)=>{
-        const position = profileText.getBoundingClientRect().top;
-        if(position < screenPosition){
-            profileText.classList.add('.animate-profile-texts')
-        }
-    })
 }
 
 window.addEventListener('scroll' , MprofileAnimation )
