@@ -6,13 +6,11 @@
     animation: slide-right 1s ease-in 0s forwards;
 }
 
-.animate-first-profile-text{
+.animate-profile-text{
     animation: slide-top 1s ease-in 0s forwards;
 }
 
-.animate-profile-texts{
-    animation: slide-top 1s ease-in 0s forwards;
-}
+
 
 @keyframes slide-right {
     0%{
